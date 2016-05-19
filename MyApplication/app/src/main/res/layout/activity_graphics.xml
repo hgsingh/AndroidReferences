@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.singh.harsukh.fullapp.GraphicsActivity">
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Graphics"-->
+        <!--android:id="@+id/button2"-->
+        <!--android:background="@drawable/ashape" />-->
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:onClick="playVideo"
+        android:id = "@+id/videoView"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonA"
+            android:text="Play Video"
+            android:onClick="playVideo"
+            android:layout_below="@id/videoView"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take Picture"
+            android:onClick="takePicture"
+            android:id="@+id/button3"
+            android:layout_below="@id/buttonA"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gallery Pic"
+            android:onClick="pickImage"
+            android:id="@+id/button4"
+            android:layout_below= "@+id/button3"
+            android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_alignTop="@+id/buttonA"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>

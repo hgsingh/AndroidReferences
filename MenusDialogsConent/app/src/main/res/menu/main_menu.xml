@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:res-auto="http://schemas.android.com/apk/res-auto">
+
+    <item android:id = "@+id/action_settings"
+          android:title = "Settings"
+          android:orderInCategory="1"
+          res-auto:showAsAction = "always"
+          android:icon = "@android:drawable/ic_menu_help"/>
+
+    <item android:id = "@+id/action_maps"
+          android:title = "Maps"
+          android:orderInCategory="2"
+          res-auto:showAsAction = "always"/>
+          <!--android:onClick="showMaps"-->
+
+
+    <item android:id = "@+id/action_camera"
+          android:title = "Picture"
+          android:orderInCategory="3"
+          res-auto:showAsAction = "always"/>
+          <!--android:onClick="takePicture"-->
+
+
+</menu>

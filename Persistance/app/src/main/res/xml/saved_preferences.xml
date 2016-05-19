@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference android:key="red"
+                        android:title="Red Color"
+                        android:summary="This is red option" />
+
+    <CheckBoxPreference android:key="green"
+                        android:title="Green Color"
+                        android:summary="This is green option" />
+
+    <CheckBoxPreference android:key="blue"
+                        android:title="Blue Color"
+                        android:summary="This is blue option" />
+
+    <EditTextPreference
+        android:key = "pref"
+        android:title = "Title"
+        android:summary="Summary" />
+        <!--user can save the edited text in the declared preference -->
+
+</PreferenceScreen>
